@@ -1,0 +1,45 @@
+.product-list-container {
+    margin: auto;
+    width: 80%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.product-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.product-table thead {
+    background-color: #f8f8f8;
+}
+
+.product-table th, .product-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #008CBA; /* Blue */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
